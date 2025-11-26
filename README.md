@@ -1,17 +1,26 @@
+# Frontend Mentor - Testimonials Grid Section
 
-1.  
-2. Configure your repository to publish your code to a web address. This will also be useful if you need some help during a challenge as you can share the URL for your project with your repo URL. There are a number of ways to do this, and we provide some recommendations below.
+This is a solution to the Testimonials grid section challenge on Frontend Mentor
+![Design Preview](./desktop-design.jpg)
 
+## Built With
 
-## Deploying your project
+- Semantic HTML5 markup
+- Mobile-first workflow
+- **CSS Grid** (Masonry layout)
+- **Tailwind CSS v4**
 
-- [GitHub Pages](https://pages.github.com/)
+## How to Run
 
+1. **Install Dependencies:**
+   `npm install`
 
-## Create a custom `README.md`
+2. **Run Tailwind:**
+   `npx @tailwindcss/cli -i ./src/input.css -o ./dist/output.css --watch`
 
+3. **View Project:**
+   Open `index.html` in your browser.
 
+## Author
 
-
-
-
+- Frontend Mentor - [@Gbolly_bambam](https://www.frontendmentor.io/profile/gbollybambam)
