@@ -1,7 +1,7 @@
 # Frontend Mentor - Testimonials Grid Section
 
 This is a solution to the Testimonials grid section challenge on Frontend Mentor
-![Design Preview](./desktop-design.jpg)
+![Design Preview](./preview.jpg)
 
 ## Built With
 
