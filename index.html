@@ -22,8 +22,21 @@
 <body class="bg-neutral-grey-100 min-h-screen flex flex-col items-center justify-center font-barlow">
   <main class="grid gap-8 p-6 max-w-[1440px] mx-auto lg:grid-cols-4">
 
-    <article class="bg-primary-purple-500 p-8 rounded-2xl text-neutral-white bg-[url(./images/bg-pattern-quotation.svg)] bg-no-repeat bg-[position:top_right_2rem] lg:col-span-2">
-      <header class="flex items-center gap-4 mb-6">
+<article
+  class="bg-primary-purple-500 p-8 rounded-2xl text-neutral-white shadow-xl lg:col-span-2 relative overflow-hidden">
+  <img id="quote-mark" src="./images/bg-pattern-quotation.svg" alt="" class="opacity-50"
+    style="display: none; position: absolute; top: 0; right: 80px; width: 120px; z-index: 0;">
+
+    <style>
+      @media (min-width: 1024px) {
+        #quote-mark {
+          display: block !important;
+        }
+      }
+    </style>
+    <div class="relative z-10">
+
+      <header class="flex items-center gap-4 mb-6 ">
         <img src="./images/image-daniel.jpg" alt="Daniel Clifford" class="w-8 h-8 rounded-full border-2 border-primary-purple-300">
         <div>
           <h3 class="text-sm font-semibold">Daniel Clifford</h3>
@@ -43,6 +56,7 @@
         The next 12 weeks was the best - and most grueling - time of my life. Since completing 
         the course, I’ve successfully switched careers, working as a Software Engineer at a VR startup. ”
       </p>
+    </div>
     </article>
     
     <article class="bg-neutral-grey-500 p-8 rounded-2xl text-neutral-white">
